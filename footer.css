@@ -1,0 +1,46 @@
+.footer-section {
+    text-align: center;
+    padding: 4em;
+    background-color: #F9FAFB;
+}
+
+.titulo-footer {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.paragrafo-footer {
+    font-family: var(--fonte-principal);
+    font-size: 17px;
+    color: var(--cor-paragrafo);
+    padding: 15px;
+}
+#email-footer {
+    padding: 1.1em;
+    width: 20%;
+    color: #D0D5DD;
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+    margin-right: 1em;
+}
+#email-footer::placeholder{
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-paragrafo);
+}
+.button-footer{
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    color: #ffffff;
+    background-color: var(--cor-palheta-principal);
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 10px;
+    border: 1px;
+}
+.marca-footer {
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    color: var(--cinza-footer);
+    padding: 15px;
+}

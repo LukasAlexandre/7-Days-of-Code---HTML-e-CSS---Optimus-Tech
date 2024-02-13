@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+.img-header {
+    margin-left: 10em;
+    width: 27px;
+    height: 27px;
+}
+
+.titulo-header {
+    color: var(--cor-header-logo);
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+ul {
+    display: flex;
+    padding-left: 8em;
+    list-style: none;
+}
+
+.ancora-header__link {
+    padding-left: 2em;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--cor-header-ancora);
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    
+}
+
+.titulo-header__entrar {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    margin: 0 2em 0 30em;
+    text-decoration: none;
+    color: var(--cor-header-logo);
+}
+
+.cadastrar-header__button {
+    background-color: var(--cor-palheta-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-branca);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.cadastrar-header__button:hover{
+    background-color: #C31919;
+}

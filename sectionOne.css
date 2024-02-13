@@ -1,0 +1,28 @@
+.subtitulo-section-one{
+    text-align: center;
+    color: var(--cor-palheta-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 700;
+}
+.titulo-section-one{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    color: var(--titulo-cinza);
+    font-weight: 600;
+    margin-top: 0.3em;
+}
+.paragrafo-section-one{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--fonte-paragrafo);
+    font-size: 20px;
+}
+.div-inicial{
+    margin: 40px;
+    padding: 20px;
+}
+.div-contralizadora{
+    margin: 30px;
+}

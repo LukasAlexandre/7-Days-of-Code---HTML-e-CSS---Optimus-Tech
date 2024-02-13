@@ -1,0 +1,17 @@
+@import url(header.css);
+@import url(sectionOne.css);
+@import url(sectionTwo.css);
+@import url(sectionThree.css);
+@import url(footer.css);
+:root{
+    --cor-palheta-principal: #8E2424;
+    --cor-header-logo: #3A404E; 
+    --cor-header-ancora: gray/500; 
+    --cor-branca:#ffffff;
+    --fonte-principal:'Inter';
+    --cor-paragrafo: #667085;
+    --titulo-cinza: gray/900;
+    --cor-titulo-lista:#101828;
+    --cor-fundo: #f8f4f4;
+    --cinza-footer:#98A2B3;
+}
